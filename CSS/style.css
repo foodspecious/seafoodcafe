@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+header{
+	background-image:url(../seafd.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	color: white;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #000;
+	font-family: cursive;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover,#phone a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	position: fixed;
+	top: 0;
+	left: 0;
+	float:left;
+	width: 100px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position:absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
